@@ -1,0 +1,29 @@
+<!-- tag::whole[] -->
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>io.openliberty.samples</groupId>
+        <artifactId>io.openliberty.samples.jaxrs21</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <!-- Add the rest of the POM below here. -->
+    <!-- tag::coordinates[] -->
+    <groupId>io.openliberty.samples</groupId>
+    <artifactId>Scheduling</artifactId>
+    <packaging>war</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <!-- end::coordinates[] -->
+    <!-- tag::dependencies[] -->
+    <dependencies>
+        <dependency>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>javax.ws.rs-api</artifactId>
+            <version>2.1</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+    <!-- end::dependencies[] -->
+</project>
+<!-- end::whole[] -->

@@ -1,0 +1,9 @@
+<server description="Sample Servlet server">
+    <featureManager>
+        <feature>jaxrs-2.1</feature>
+        <feature>jsonb-1.0</feature>
+        <feature>cdi-2.0</feature>
+    </featureManager>
+
+
+</server>
