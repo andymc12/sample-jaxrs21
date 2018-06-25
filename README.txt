@@ -19,6 +19,24 @@ To access the Reactive Client sample application, visit the following URL from
 your browser: 
       http://localhost:9080/RxClient/index.html 
 
+This page will allow you to book a consultant with a set of skills for a certain
+date range.  This uses the JAX-RS 2.1 Reactive Client APIs to make multiple REST
+requests to the Skills and Scheduling apps.  The sample code for the Reactive
+Client is available here:
+      https://github.com/andymc12/sample-jaxrs21/blob/master/RxClient/src/main/java/io/openliberty/sample/rxclient/ExampleResource.java
+
+
 To access the Server Sent Events (SSE) sample app, visit the following URL from
 your browser (ideally from more than one browser):
       http://localhost:9080/SseChat/index.html
+
+You can see how the JAX-RS 2.1 SSE APIs make this work by viewing the sample
+code here:
+      https://github.com/andymc12/sample-jaxrs21/blob/master/SseChat/src/main/java/io/openliberty/sample/ssechat/ChatResource.java
+
+The SSE client is an HTML page that uses JavaScript:
+      https://github.com/andymc12/sample-jaxrs21/blob/master/SseChat/src/main/webapp/index.html
+
+Note that at the time I wrote this app, Microsoft browsers did not provide support
+for SSEs - I have tested this successfully on recent versions of Safari, Chrome and
+Firefox.
